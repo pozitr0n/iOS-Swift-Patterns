@@ -9,3 +9,7 @@
 ## Type of all the patterns
 
 ![Image alt](https://github.com/pozitr0n/iOS-Swift-Patterns/raw/main/images/image1.png)
+
+- [x] Singleton
+- [x] Factory Method
+- [x] Abstract Factory

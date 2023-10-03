@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "CoffeeTableBedroomImage.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

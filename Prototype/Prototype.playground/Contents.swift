@@ -85,3 +85,5 @@ class Person2: Copying {
 
 var person_first2 = Person2(name: "Jim")
 var person_second2 = person_first2.copy()
+
+

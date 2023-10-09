@@ -26,7 +26,7 @@ extension ViewController {
     
     func createUserGoogle(email: String, password: String) {
         
-        authServiceGoogle.login(email: email, password: password) { user, token in
+        authServiceGoogle.login(email: email, password: password) { (user, token) in
             
             guard let user = user else {
                 return
@@ -46,7 +46,7 @@ extension ViewController {
     
     func createUserTwitter(email: String, password: String) {
         
-        authServiceTwitter.login(email: email, password: password) { user, token in
+        authServiceTwitter.login(email: email, password: password) { (user, token) in
             
             guard let user = user else {
                 return

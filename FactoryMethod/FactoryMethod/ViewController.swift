@@ -33,15 +33,19 @@ class ViewController: UIViewController {
     }
     
     func runExcercise() {
+        
         for exercise in excercisesArray {
             exercise.start()
         }
+        
     }
     
     func stopExcercise() {
+        
         for exercise in excercisesArray {
             exercise.stop()
         }
+        
     }
 
 }

@@ -64,9 +64,11 @@ public protocol Copying {
 }
 
 extension Copying {
+    
     public func copy() -> Self {
         return type(of: self).init(self)
     }
+    
 }
 
 class Person2: Copying {

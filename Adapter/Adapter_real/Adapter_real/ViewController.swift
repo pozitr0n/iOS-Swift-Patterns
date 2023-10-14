@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     let authServiceTwitter: AuthService = TwitterAuthenticatorAdapter()
     
     override func viewDidLoad() {
+       
         super.viewDidLoad()
         
         createUserGoogle(email: "rkozar_google@gmail.com", password: "1q2w3e4r")

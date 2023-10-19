@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var excercisesArray = [Excercise]()
      
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         // create jumping

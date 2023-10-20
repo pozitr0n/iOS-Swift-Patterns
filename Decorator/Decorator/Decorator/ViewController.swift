@@ -12,9 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var price: UILabel!
     
     @IBOutlet weak var priceLabel: UILabel! {
+       
         didSet {
             priceLabel.text = String(chevrolet.getPrice()) + "$"
         }
+        
     }
     
     @IBOutlet weak var contentLabel: UILabel!

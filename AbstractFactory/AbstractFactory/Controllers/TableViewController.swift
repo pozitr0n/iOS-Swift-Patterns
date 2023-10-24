@@ -14,7 +14,6 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
         tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "CellID")
         
     }

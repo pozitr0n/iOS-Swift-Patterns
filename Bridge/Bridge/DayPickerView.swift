@@ -72,8 +72,8 @@ class DayPickerView: UIControl {
     
     @objc func selectedButton(sender: UIButton) {
         
-        for b in buttons {
-            b.isSelected = false
+        for button in buttons {
+            button.isSelected = false
         }
         
         let index = sender.tag

@@ -17,14 +17,14 @@ class ViewController: UIViewController {
         
         print(red === red2)
         
-        //
+        //  color 1-2
         
         let color = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
         let color2 = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
         
         print(color === color2)
         
-        //
+        //  flycolor 1-2
         
         let flyColor = UIColor.rgba(1, 0, 0, 1)
         let flyColor2 = UIColor.rgba(1, 0, 0, 1)

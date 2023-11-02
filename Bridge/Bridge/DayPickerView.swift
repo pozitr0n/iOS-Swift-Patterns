@@ -13,8 +13,15 @@ protocol DayPickerViewDataSource {
     func dayPickerTitle(_ dayPicker: DayPickerView, indexPath: IndexPath) -> String
 }
 
+protocol DayPickerViewDelegate {
+    func updateMainViewController(_ index: Int)
+}
+
 class DayPickerView: UIControl {
     
+    let condition: [Int:Int] = [1:0, 2:1, 3:2, 4:3, 5:4, 6:5, 7:6]
+    
+    var delegate: DayPickerViewDelegate?
     var dataSource: DayPickerViewDataSource? {
         
         didSet {
@@ -22,7 +29,7 @@ class DayPickerView: UIControl {
         }
         
     }
-    
+        
     private var buttons: [UIButton] = []
     private var stackView: UIStackView!
     
@@ -81,7 +88,27 @@ class DayPickerView: UIControl {
         
         button.isSelected = true
         
-        // API weather!
+        delegate?.updateMainViewController(index)
+        
+    }
+    
+    func setStartDate() {
+        
+        let calendar = Date()
+        let dayOfTheWeek = calendar.dayNumberOfWeek()
+        
+        guard let dayOfTheWeekUnwr = dayOfTheWeek else {
+            return
+        }
+        
+        for button in buttons {
+            button.isSelected = false
+        }
+        
+        let button = self.buttons[condition[dayOfTheWeekUnwr]!]
+        button.isSelected = true
+        
+        delegate?.updateMainViewController(condition[dayOfTheWeekUnwr]!)
         
     }
     

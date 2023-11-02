@@ -14,6 +14,7 @@
 		4D0B51852AEEFD6A00296295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B51842AEEFD6A00296295 /* Assets.xcassets */; };
 		4D0B51882AEEFD6A00296295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B51862AEEFD6A00296295 /* LaunchScreen.storyboard */; };
 		4D0B51902AEF01F300296295 /* DayPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B518F2AEF01F300296295 /* DayPickerView.swift */; };
+		4D0B51D92AF40B3F00296295 /* OpenWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B51D82AF40B3F00296295 /* OpenWeatherAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4D0B51872AEEFD6A00296295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0B51892AEEFD6A00296295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0B518F2AEF01F300296295 /* DayPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerView.swift; sourceTree = "<group>"; };
+		4D0B51D82AF40B3F00296295 /* OpenWeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4D0B517D2AEEFD6900296295 /* SceneDelegate.swift */,
 				4D0B517F2AEEFD6900296295 /* ViewController.swift */,
 				4D0B518F2AEF01F300296295 /* DayPickerView.swift */,
+				4D0B51D82AF40B3F00296295 /* OpenWeatherAPI.swift */,
 				4D0B51812AEEFD6900296295 /* Main.storyboard */,
 				4D0B51842AEEFD6A00296295 /* Assets.xcassets */,
 				4D0B51862AEEFD6A00296295 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0B51802AEEFD6900296295 /* ViewController.swift in Sources */,
+				4D0B51D92AF40B3F00296295 /* OpenWeatherAPI.swift in Sources */,
 				4D0B517C2AEEFD6900296295 /* AppDelegate.swift in Sources */,
 				4D0B51902AEF01F300296295 /* DayPickerView.swift in Sources */,
 				4D0B517E2AEEFD6900296295 /* SceneDelegate.swift in Sources */,

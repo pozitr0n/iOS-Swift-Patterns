@@ -20,7 +20,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
         self.hideKeyboardWhenTappedAround()
+        setStartSettings()
+
+    }
+    
+    func setStartSettings() {
         
         cityName.text = "Poznań"
         
@@ -29,7 +35,7 @@ class ViewController: UIViewController {
         dayPicker.setStartDate()
         
         cityName.addTarget(self, action: #selector(textChanged), for: .editingDidEnd)
-    
+        
     }
 
     @objc func textChanged(_ textField: UITextField) {

@@ -28,12 +28,12 @@ class ViewController: UIViewController {
     
     func setStartSettings() {
         
-        cityName.text = "Poznań"
-        
         dayPicker.dataSource = self
         dayPicker.delegate = self
+        
         dayPicker.setStartDate()
         
+        cityName.text = "Poznań"
         cityName.addTarget(self, action: #selector(textChanged), for: .editingDidEnd)
         
     }

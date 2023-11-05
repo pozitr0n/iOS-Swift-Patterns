@@ -73,10 +73,12 @@ extension ViewController: DayPickerViewDelegate {
         OpenWeatherAPI().getTemperatureByDay(day: index, city: city, completion: { (data) in
             
             DispatchQueue.main.async {
+                
                 if data.count != 0 {
                     self.temperatureLabel.text = data[0]
                     self.temperatureLogo.image = UIImage(named: data[1])
                 }
+                
             }
             
         })

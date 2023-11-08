@@ -69,7 +69,6 @@ extension ViewController: DayPickerViewDelegate {
         }
         
         currentIndex = index
-        
         OpenWeatherAPI().getTemperatureByDay(day: index, city: city, completion: { (data) in
             
             DispatchQueue.main.async {

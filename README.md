@@ -11,5 +11,19 @@
 ![Image alt](https://github.com/pozitr0n/iOS-Swift-Patterns/raw/main/images/image1.png)
 
 - [x] Singleton
-- [x] Factory Method
 - [x] Abstract Factory
+- [x] Adapter
+- [x] Prototype
+- [x] Factory Method
+- [x] Decorator
+- [x] Proxy
+- [x] Compose
+- [x] Builder
+- [x] Flyweight
+- [x] Facade
+- [x] Bridge
+- [x] Iterator
+- [x] Memento
+- [x] Command
+- [x] Visitor
+- [x] Observer

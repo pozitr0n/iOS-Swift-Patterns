@@ -53,9 +53,11 @@ class NotificationCenters {
 }
 
 class ConcreteObsirverA: Observer {
+    
     func update(subject: NotificationCenters) {
         print("ConcreteObsirverA: \(subject.state)")
     }
+    
 }
 
 class ViewController: UIViewController, Observer {
